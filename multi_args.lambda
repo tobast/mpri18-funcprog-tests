@@ -1,2 +1,2 @@
 let sum = fun x -> fun y -> x + y in
-print(40 + 2)
+print(sum 40 2)
