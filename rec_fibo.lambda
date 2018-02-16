@@ -1,0 +1,25 @@
+let fibo = fun n ->
+    let rec fibo_inner = fun i -> fun last -> fun last_last ->
+        ifzero (n - i) then
+            last + last_last
+        else
+            fibo_inner (i+1) (last + last_last) last
+    in
+
+    ifzero n then
+        1
+    else ifzero (n - 1) then
+        1
+    else
+        fibo_inner 2 1 1
+    in
+
+let x = print (fibo 0) in
+let x = print (fibo 1) in
+let x = print (fibo 2) in
+let x = print (fibo 3) in
+let x = print (fibo 4) in
+let x = print (fibo 5) in
+let x = print (fibo 6) in
+let x = print (fibo 7) in
+print (fibo 8)

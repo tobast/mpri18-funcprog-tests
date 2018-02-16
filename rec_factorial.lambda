@@ -1,0 +1,9 @@
+let rec fact = fun n ->
+    ifzero n then
+        1
+    else
+        let sub_val = fact (n - 1) in
+        n * sub_val
+    in
+
+print (fact 7)
