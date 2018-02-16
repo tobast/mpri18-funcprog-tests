@@ -1,4 +1,4 @@
-*.exe
 *.err
-*.c
 *.out
+*.exe
+*.c
