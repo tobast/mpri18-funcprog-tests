@@ -1,0 +1,15 @@
+let fib = fun n ->
+  let rec fib = fun k -> fun pair ->
+    let [a, b] = pair in
+    let _ = print a in
+    ifzero n - k then
+      a
+    else
+      fib (k + 1) [b, a + b]
+  in
+  fib 0 [0, 1]
+in
+
+let _ = print (fib 30) in
+
+0

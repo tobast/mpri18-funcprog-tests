@@ -1,0 +1,4 @@
+(* Is expected to be rejected by the type system,
+   even if 1-tuple are later optimized away. *)
+
+print [42]

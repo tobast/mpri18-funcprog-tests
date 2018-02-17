@@ -1,0 +1,12 @@
+let u = [] in
+let v = [42] in
+
+let swap = fun pair ->
+  let [a, b] = pair in
+  [b, a]
+in
+
+let [id, _] = swap [[], (fun x -> x)] in
+let [_, n] = swap [42, swap] in
+
+print (id n)

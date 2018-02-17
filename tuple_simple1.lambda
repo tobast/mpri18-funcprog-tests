@@ -1,0 +1,9 @@
+(*let u = [13, 37, 42, 57] in*)
+let u = [print 13, print 37, print 42, print 57] in
+let [a, b, c, d] = u in
+let _ = print a in
+let _ = print b in
+let _ = print c in
+let _ = print d in
+
+0

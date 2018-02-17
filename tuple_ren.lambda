@@ -1,0 +1,32 @@
+let [a0,b0,c0] = [13,37,42] in
+let [a1,b1,c1] = [a0,b0,c0] in
+let [a2,b2,c2] = [a1,b1,c1] in
+let [a3,b3,c3] = [a2,b2,c2] in
+let [a4,b4,c4] = [a3,b3,c3] in
+let [a5,b5,c5] = [a4,b4,c4] in
+let [a6,b6,c6] = [a5,b5,c5] in
+let [a7,b7,c7] = [a6,b6,c6] in
+let [a8,b8,c8] = [a7,b7,c7] in
+let [a9,b9,c9] = [a8,b8,c8] in
+let [a10,b10,c10] = [a9,b9,c9] in
+let [a11,b11,c11] = [a10,b10,c10] in
+let [a12,b12,c12] = [a11,b11,c11] in
+let [a13,b13,c13] = [a12,b12,c12] in
+let [a14,b14,c14] = [a13,b13,c13] in
+let [a15,b15,c15] = [a14,b14,c14] in
+let [a16,b16,c16] = [a15,b15,c15] in
+let [a17,b17,c17] = [a16,b16,c16] in
+let [a18,b18,c18] = [a17,b17,c17] in
+let [a19,b19,c19] = [a18,b18,c18] in
+let [a20,b20,c20] = [a19,b19,c19] in
+let [a21,b21,c21] = [a20,b20,c20] in
+let [a22,b22,c22] = [a21,b21,c21] in
+let [a23,b23,c23] = [a22,b22,c22] in
+let [a24,b24,c24] = [a23,b23,c23] in
+let [a25,b25,c25] = [a24,b24,c24] in
+
+let _ = print a25 in
+let _ = print b25 in
+let _ = print c25 in
+
+0
