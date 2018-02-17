@@ -1,0 +1,6 @@
+(* This is expected to fail to typecheck,
+   or otherwise produce nonsensical code. *)
+
+let plus = fun x -> fun y -> x + y in
+
+plus 1 2 3

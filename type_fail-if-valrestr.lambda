@@ -1,0 +1,12 @@
+(* This is expected to fail to typecheck because of the value restriction. *)
+
+(* id : ∀ 'a. 'a → 'a *)
+let id = fun x -> x in
+
+(* f : ?A → ?A *)
+let f = id id in
+
+let _ = f 0 in
+let _ = f (fun _ -> 0) in
+
+print 42

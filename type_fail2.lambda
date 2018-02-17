@@ -1,0 +1,11 @@
+(* This is expected to fail to typecheck. *)
+
+let id = fun x -> x in
+
+let h = fun f ->
+  let _ = f 0 in
+  let _ = f (fun _ -> 0) in
+  0
+in
+
+h id

@@ -1,0 +1,11 @@
+(* This is expected to typecheck thanks to let-polymorphism,
+   even with the value restriction. *)
+
+let id = fun x -> x in
+
+let f = id in
+
+let _ = f f 0 in
+let _ = f f (fun _ -> 0) in
+
+0
