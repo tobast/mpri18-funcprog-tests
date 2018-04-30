@@ -1,0 +1,11 @@
+let eta = fun f -> (fun x -> f x) in
+
+let rec loop = fun n ->
+  ifzero n then
+    0
+  else
+    let _ = print n in
+    eta loop (n - 1)
+in
+
+loop 10
