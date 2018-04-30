@@ -1,0 +1,3 @@
+let u = [print 42] in
+let [v] = u in
+print v

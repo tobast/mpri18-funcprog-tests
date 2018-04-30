@@ -1,0 +1,11 @@
+let print_int = fun x ->
+  let _ = print x in
+  []
+in
+
+print_int (
+	print_int 13 ;
+	print_int 37 ;
+	print 42
+) ;
+[]

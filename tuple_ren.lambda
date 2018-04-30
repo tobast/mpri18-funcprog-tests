@@ -1,4 +1,4 @@
-let [a0,b0,c0] = [13,37,42] in
+let [a0,b0,c0] = [print 13, print 37, print 42] in
 let [a1,b1,c1] = [a0,b0,c0] in
 let [a2,b2,c2] = [a1,b1,c1] in
 let [a3,b3,c3] = [a2,b2,c2] in
